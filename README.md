@@ -39,4 +39,7 @@ fun main(args: Array<String>) {
 実行するとエディタ下部の画面に "Hello world!"が表示されます。<br>
 <br>
 以上です。<br>
-以降、随時コンテンツを追加していきます。
+<br>
+コンテンツ準備中のため、<br>
+直接ソースコードを見て写経して学習してください。<br>
+[Lesson.kt](https://github.com/Programmable-school/Kotlin-Training/blob/master/Lesson/src/Lesson.kt)<br>

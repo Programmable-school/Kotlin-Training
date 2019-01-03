@@ -75,6 +75,7 @@ fun lessonPriAny() {
 /* 演算子 */
 /* コレクション */
 /* 配列 */
+/* filter, map, reduce, sort */
 /* if分 */
 /* 比較演算子 */
 /* AND・OR */
