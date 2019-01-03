@@ -23,7 +23,8 @@ IntelliJ IDEAを利用してコーディングします。
 「New」->「Kotlin File/Class」を選択してファイル名を「Lesson」にしてOKを選択して作成します。<br>
 <br>
 
-作成されたLesson.ktで以下のように実装してください。
+作成されたLesson.ktで以下のように実装してください。
+
 ```kotlin
 package lesson
 
