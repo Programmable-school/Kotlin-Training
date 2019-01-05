@@ -21,6 +21,7 @@ IntelliJ IDEAを利用してコーディングします。
 ### Hello! world.を表示する
 さきほど作成したのIntelliJ IDEAのプロジェクト内で、左側のメニューの「src」を右クリックより<br>
 「New」->「Kotlin File/Class」を選択してファイル名を「Lesson」にしてOKを選択して作成します。<br>
+<a href="https://imgur.com/vt2q8jk"><img src="https://i.imgur.com/vt2q8jk.png" width="500" height="300" /></a>
 <br>
 
 作成されたLesson.ktで以下のように実装してください。
