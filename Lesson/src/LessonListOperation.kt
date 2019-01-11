@@ -4,7 +4,8 @@ package lesson
 fun lessonListOperation() {
     val nums: Array<Int> = arrayOf(0, 1, 2, 3, 4, 5)
 
-    // ■ filter 条件に合う値だけを取り出します。条件に当てはまる要素が複数ある場合があるので配列で取得される。
+    // ■ filter
+    // 条件に合う値だけを取り出します。条件に当てはまる要素が複数ある場合があるので配列で取得される。
     // 書き方1
     val numsFiltered1 = nums.filter { item -> item == 0 }
     println("filter1 ${numsFiltered1}")     // filter1 [0]
@@ -18,7 +19,8 @@ fun lessonListOperation() {
     }
     println("filter2 ${numsFiltered2}")     // filter2 [0]
 
-    // ■ map 新しい要素の配列を作成する。値を加工して新しい配列を作成するときに利用する。
+    // ■ map
+    // 新しい要素の配列を作成する。値を加工して新しい配列を作成するときに利用する。
     // 書き方1
     val numsMap1 = nums.map { item -> item * 2 }
     println("map1 ${numsMap1}")             // map1 [0, 2, 4, 6, 8, 10]

@@ -1,0 +1,3 @@
+package lesson
+
+/* インターフェース */
