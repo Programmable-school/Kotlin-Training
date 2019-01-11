@@ -1,6 +1,45 @@
 # Kotlin-Training
 
-> 初学者向け Kotlin構文理解のためのソースコード
+> 初心者向け Kotlin入門トレーニング。
+
+## 目次
+- [環境構築](https://github.com/Programmable-school/Kotlin-Training#%E6%89%8B%E9%A0%86)
+- [Hello! World.を表示](https://github.com/Programmable-school/Kotlin-Training/blob/master/Lesson/src/LessonHelloWorld.kt)
+- [変数](https://github.com/Programmable-school/Kotlin-Training/blob/master/Lesson/src/LessonVarVal.kt)
+- [関数](https://github.com/Programmable-school/Kotlin-Training/blob/master/Lesson/src/LessonFunction.kt)
+- [ラムダ式・無名関数](https://github.com/Programmable-school/Kotlin-Training/blob/master/Lesson/src/LessonLambdaExpression.kt)
+- [スコープ関数](https://github.com/Programmable-school/Kotlin-Training/blob/master/Lesson/src/LessonScopeFunction.kt)
+- [プリミティブ型、Any型](https://github.com/Programmable-school/Kotlin-Training/blob/master/Lesson/src/LessonPriAny.kt)
+- [Optional型](https://github.com/Programmable-school/Kotlin-Training/blob/master/Lesson/src/LessonOptional.kt)
+- [アンラップ](https://github.com/Programmable-school/Kotlin-Training/blob/master/Lesson/src/LessonUnwrap.kt)
+- [演算子](https://github.com/Programmable-school/Kotlin-Training/blob/master/Lesson/src/LessonCalc.kt)
+- [配列](https://github.com/Programmable-school/Kotlin-Training/blob/master/Lesson/src/LessonArray.kt)
+- [コレクション](https://github.com/Programmable-school/Kotlin-Training/blob/master/Lesson/src/LessonCollection.kt)
+- [リスト操作](https://github.com/Programmable-school/Kotlin-Training/blob/master/Lesson/src/LessonListOperation.kt)
+- [if分（条件判断）]()
+- [比較演算子]()
+- [AND・OR, 三項演算子]()
+- [switch文（条件判断）]()
+- [when文（条件判断）]()
+- [while文（繰り返し）]()
+- [for文（繰り返し）]()
+- [Enum]()
+- [構造体]()
+- [クラス]()
+- [継承]()
+- [インターフェース]()
+- [抽象クラス]()
+- [値渡し参照渡し]()
+- [キャスト変換]()
+- [日付関数（Date）]()
+- [数値計算（Math]()
+- [objectとcompanion object]()
+- [拡張関数]()
+- [ジェネリクス]()
+- [非同期処理（コールバック）]()
+- [非同期処理（コルーチン）]()
+- [ReactiveX]()
+
 ## 開発環境
 - IntelliJ IDEA 2018.3以上
 - Kotlin 1.3以上
@@ -43,4 +82,4 @@ fun main(args: Array<String>) {
 <br>
 コンテンツ準備中のため、<br>
 直接ソースコードを見て写経して学習してください。<br>
-[Lesson.kt](https://github.com/Programmable-school/Kotlin-Training/blob/master/Lesson/src/Lesson.kt)<br>
+[Lesson](https://github.com/Programmable-school/Kotlin-Training/blob/master/Lesson/src/)<br>
