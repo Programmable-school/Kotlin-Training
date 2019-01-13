@@ -49,6 +49,11 @@ fun main(args: Array<String>) {
     lessonCalc()
     println("------------------\n")
 
+    /* エルビス演算子 */
+    println("---- Lesson_Elvis ----")
+    lessonElvis()
+    println("------------------\n")
+
     /* 配列 */
     println("---- Lesson_Array ----")
     lessonArray()

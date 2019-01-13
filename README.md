@@ -13,6 +13,7 @@
 - [Optional型](https://github.com/Programmable-school/Kotlin-Training/blob/master/Lesson/src/LessonOptional.kt)
 - [アンラップ](https://github.com/Programmable-school/Kotlin-Training/blob/master/Lesson/src/LessonUnwrap.kt)
 - [演算子](https://github.com/Programmable-school/Kotlin-Training/blob/master/Lesson/src/LessonCalc.kt)
+- [エルビス演算子](https://github.com/Programmable-school/Kotlin-Training/blob/master/Lesson/src/LessonElvis.kt)
 - [配列](https://github.com/Programmable-school/Kotlin-Training/blob/master/Lesson/src/LessonArray.kt)
 - [コレクション](https://github.com/Programmable-school/Kotlin-Training/blob/master/Lesson/src/LessonCollection.kt)
 - [リスト操作](https://github.com/Programmable-school/Kotlin-Training/blob/master/Lesson/src/LessonListOperation.kt)
