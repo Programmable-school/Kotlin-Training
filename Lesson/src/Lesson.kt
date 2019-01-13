@@ -85,8 +85,20 @@ fun main(args: Array<String>) {
     println("------------------\n")
 
     /* while文（繰り返し） */
+    println("---- Lesson_When ----")
+    lessonWhile()
+    println("------------------\n")
+
     /* for文（繰り返し） */
+    println("---- Lesson_For ----")
+    lessonFor()
+    println("------------------\n")
+
     /* Enum */
+    println("---- Lesson_Enum ----")
+    lessonEnum()
+    println("------------------\n")
+
     /* 構造体 */
     /* クラス */
     /* 継承 */
