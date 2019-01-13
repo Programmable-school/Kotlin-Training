@@ -65,10 +65,25 @@ fun main(args: Array<String>) {
     println("------------------\n")
 
     /* if分（条件判断） */
+    println("---- Lesson_If ----")
+    lessonIf()
+    println("------------------\n")
+
     /* 比較演算子 */
-    /* AND・OR, 三項演算子 */
-    /* switch文（条件判断） */
+    println("---- Lesson_Compare ----")
+    lessonCompare()
+    println("------------------\n")
+
+    /* AND・OR */
+    println("---- Lesson_AndOr ----")
+    lessonAndOr()
+    println("------------------\n")
+
     /* when文（条件判断） */
+    println("---- Lesson_When ----")
+    lessonWhen()
+    println("------------------\n")
+
     /* while文（繰り返し） */
     /* for文（繰り返し） */
     /* Enum */
