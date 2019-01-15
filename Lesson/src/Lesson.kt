@@ -104,8 +104,11 @@ fun main(args: Array<String>) {
     lessonEnum()
     println("------------------\n")
 
-    /* 構造体 */
     /* クラス */
+    println("---- Lesson_Class ----")
+    lessonClass()
+    println("------------------\n")
+
     /* 継承 */
     /* インターフェース */
     /* 抽象クラス */

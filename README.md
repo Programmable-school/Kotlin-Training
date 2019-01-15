@@ -24,7 +24,6 @@
 - [while文（繰り返し）](https://github.com/Programmable-school/Kotlin-Training/blob/master/Lesson/src/LessonWhile.kt)
 - [for文（繰り返し）](https://github.com/Programmable-school/Kotlin-Training/blob/master/Lesson/src/LessonFor.kt)
 - [Enum](https://github.com/Programmable-school/Kotlin-Training/blob/master/Lesson/src/LessonEnum.kt)
-- [構造体](https://github.com/Programmable-school/Kotlin-Training/blob/master/Lesson/src/LessonStructure.kt)
 - [クラス](https://github.com/Programmable-school/Kotlin-Training/blob/master/Lesson/src/LessonClass.kt)
 - [継承](https://github.com/Programmable-school/Kotlin-Training/blob/master/Lesson/src/LessonInheritance.kt)
 - [インターフェース](https://github.com/Programmable-school/Kotlin-Training/blob/master/Lesson/src/LessonInterface.kt)
