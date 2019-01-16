@@ -110,6 +110,10 @@ fun main(args: Array<String>) {
     println("------------------\n")
 
     /* 継承 */
+    println("---- Lesson_Inheritance ----")
+    lessonInheritance()
+    println("------------------\n")
+
     /* インターフェース */
     /* 抽象クラス */
     /* キャスト変換 */
