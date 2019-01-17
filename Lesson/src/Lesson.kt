@@ -115,6 +115,10 @@ fun main(args: Array<String>) {
     println("------------------\n")
 
     /* インターフェース */
+    println("---- Lesson_Interface ----")
+    lessonInterface()
+    println("------------------\n")
+
     /* 抽象クラス */
     /* キャスト変換 */
     /* 日付関数（Date） */
