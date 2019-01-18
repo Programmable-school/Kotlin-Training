@@ -120,6 +120,11 @@ fun main(args: Array<String>) {
     println("------------------\n")
 
     /* 抽象クラス */
+    println("---- Lesson_Abstract ----")
+    lessonAbstract()
+    println("------------------\n")
+
+
     /* キャスト変換 */
     /* 日付関数（Date） */
     /* 数値計算（Math） */
