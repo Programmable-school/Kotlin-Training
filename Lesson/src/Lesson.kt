@@ -124,8 +124,11 @@ fun main(args: Array<String>) {
     lessonAbstract()
     println("------------------\n")
 
-
     /* キャスト変換 */
+    println("---- Lesson_Cast ----")
+    lessonCast()
+    println("------------------\n")
+
     /* 日付関数（Date） */
     /* 数値計算（Math） */
     /* objectとcompanion object */
