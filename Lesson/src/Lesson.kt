@@ -130,6 +130,10 @@ fun main(args: Array<String>) {
     println("------------------\n")
 
     /* 日付関数（Date） */
+    println("---- Lesson_Date ----")
+    lessonDate()
+    println("------------------\n")
+
     /* 数値計算（Math） */
     /* objectとcompanion object */
     /* 拡張関数 */
