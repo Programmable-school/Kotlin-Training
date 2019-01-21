@@ -90,7 +90,7 @@ fun main(args: Array<String>) {
     println("------------------\n")
 
     /* while文（繰り返し） */
-    println("---- Lesson_When ----")
+    println("---- Lesson_While ----")
     lessonWhile()
     println("------------------\n")
 
@@ -135,6 +135,10 @@ fun main(args: Array<String>) {
     println("------------------\n")
 
     /* 数値計算（Math） */
+    println("---- Lesson_Math ----")
+    lessonMath()
+    println("------------------\n")
+
     /* objectとcompanion object */
     /* 拡張関数 */
     /* ジェネリクス */
