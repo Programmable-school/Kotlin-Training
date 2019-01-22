@@ -140,6 +140,10 @@ fun main(args: Array<String>) {
     println("------------------\n")
 
     /* objectとcompanion object */
+    println("---- Lesson_Object ----")
+    lessonObject()
+    println("------------------\n")
+
     /* 拡張関数 */
     /* ジェネリクス */
     /* コールバック */
