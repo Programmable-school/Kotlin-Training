@@ -24,6 +24,11 @@ fun main(args: Array<String>) {
     lessonLambdaExpression()
     println("------------------\n")
 
+    /* 拡張関数 */
+    println("---- Lesson_Extension ----")
+    lessonExtension()
+    println("------------------\n")
+
     /* スコープ関数 */
     println("---- Lesson_ScopeFunction ----")
     lessonScopeFunction()
@@ -144,7 +149,6 @@ fun main(args: Array<String>) {
     lessonObject()
     println("------------------\n")
 
-    /* 拡張関数 */
     /* ジェネリクス */
     /* コールバック */
     /* コルーチン */
