@@ -150,6 +150,10 @@ fun main(args: Array<String>) {
     println("------------------\n")
 
     /* ジェネリクス */
+    println("---- Lesson_Generics ----")
+    lessonGenerics()
+    println("------------------\n")
+
     /* コールバック */
     /* コルーチン */
     /* ReactiveX */
