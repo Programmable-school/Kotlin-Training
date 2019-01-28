@@ -34,9 +34,9 @@
 - [数値計算（Math）](https://github.com/Programmable-school/Kotlin-Training/blob/master/Lesson/src/LessonMath.kt)
 - [objectとcompanion object](https://github.com/Programmable-school/Kotlin-Training/blob/master/Lesson/src/LessonObject.kt)
 - [ジェネリクス](https://github.com/Programmable-school/Kotlin-Training/blob/master/Lesson/src/LessonGenerics.kt)
-- [非同期処理（コールバック）](https://github.com/Programmable-school/Kotlin-Training/blob/master/Lesson/src/LessonCallback.kt)
-- [非同期処理（コルーチン）](https://github.com/Programmable-school/Kotlin-Training/blob/master/Lesson/src/LessonCoroutine.kt)
-- [ReactiveX](https://github.com/Programmable-school/Kotlin-Training/blob/master/Lesson/src/LessonReactiveX.kt)
+- [非同期処理（コールバック）](https://github.com/Programmable-school/Kotlin-Training/tree/master/Async-Training-1)
+- [非同期処理（コルーチン）](https://github.com/Programmable-school/Kotlin-Training/tree/master/Async-Training-1)
+- [ReactiveX](https://github.com/Programmable-school/Kotlin-Training/tree/master/Async-Training-1)
 
 ## 開発環境
 - IntelliJ IDEA 2018.3以上
