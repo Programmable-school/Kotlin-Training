@@ -3,9 +3,9 @@
 > 初心者向け Kotlin入門トレーニング（非同期処理）。
 
 ## 目次
-- [非同期処理（コールバック）](https://github.com/Programmable-school/Kotlin-Training/blob/master/Lesson/src/LessonCallback.kt)
-- [非同期処理（コルーチン）](https://github.com/Programmable-school/Kotlin-Training/blob/master/Lesson/src/LessonCoroutine.kt)
-- [ReactiveX](https://github.com/Programmable-school/Kotlin-Training/blob/master/Lesson/src/LessonReactiveX.kt)
+- [非同期処理（コールバック）](https://github.com/Programmable-school/Kotlin-Training/tree/master/Async-Training-1/src/main/kotlin)
+- [非同期処理（コルーチン）](https://github.com/Programmable-school/Kotlin-Training/tree/master/Async-Training-1/src/main/kotlin)
+- [ReactiveX](https://github.com/Programmable-school/Kotlin-Training/tree/master/Async-Training-1/src/main/kotlin)
 
 ## 開発環境
 - IntelliJ IDEA 2018.3以上
