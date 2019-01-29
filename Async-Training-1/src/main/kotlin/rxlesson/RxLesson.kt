@@ -12,7 +12,7 @@ import model.User
  * fromArray: 引数に指定されたデータのObservableを生成
  * zip: 複数のObservableから流れてきたデータを組み合わせて単一のデータにする
  * map: 機能はリスト操作のmapと同じ。Observableで返す
- * flatMap: 機能はリスト操作のmapと同じ。Observableを触れれないが、中の値にアクセスできる。
+ * flatMap: 機能はリスト操作のflatMapと同じ。Observableを触れれないが、中の値にアクセスできる。
  * dispose: subscribeした後はdisposeをすることで購読を終了する。
  *          subscribeしたオブジェクトが消えることが保証されていないため、使い終わったら明示的にdisposeを呼んで終了させる。
  */
