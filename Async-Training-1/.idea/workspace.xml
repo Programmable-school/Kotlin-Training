@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a67b6f1f-bdd2-4cc5-aa2a-1e4fb1b4d272" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/rxlesson/RxLesson.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/rxlesson/RxLesson.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -95,8 +95,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/rxlesson/RxLesson.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+            <state relative-caret-position="225">
+              <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
               <folding>
                 <element signature="e#18#152#0" expanded="true" />
               </folding>
@@ -143,14 +143,14 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/rxjavalesson/ApiClient.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/rxjavalesson/RxJavaLesson.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/rxlesson/ApiClient.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/rxlesson/RxLesson.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/Main.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/rxlesson/RxLesson.kt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="313" />
-    <option name="y" value="24" />
+    <option name="x" value="155" />
+    <option name="y" value="28" />
     <option name="width" value="1578" />
     <option name="height" value="984" />
   </component>
@@ -160,8 +160,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -223,6 +221,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -286,9 +286,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="313" y="24" width="1578" height="984" extended-state="0" />
+    <frame x="155" y="28" width="1578" height="984" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2565104" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25976562" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -297,7 +298,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3295964" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3295964" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -384,8 +385,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/rxlesson/RxLesson.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        <state relative-caret-position="225">
+          <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
           <folding>
             <element signature="e#18#152#0" expanded="true" />
           </folding>

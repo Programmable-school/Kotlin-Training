@@ -1,10 +1,21 @@
 package rxlesson
 
 import io.reactivex.Observable
+import io.reactivex.disposables.Disposable
 import io.reactivex.functions.BiFunction
 import io.reactivex.subjects.BehaviorSubject
 import model.User
 
+/**
+ * Observable: ストリーム（データを流す通路）
+ * BehaviorSubject: 最後のデータを保持する。onNextで新しいデータを流し、subscribeとvalueでデータを取得できる
+ * fromArray: 引数に指定されたデータのObservableを生成
+ * zip: 複数のObservableから流れてきたデータを組み合わせて単一のデータにする
+ * map: 機能はリスト操作のmapと同じ。Observableで返す
+ * flatMap: 機能はリスト操作のmapと同じ。Observableを触れれないが、中の値にアクセスできる。
+ * dispose: subscribeした後はdisposeをすることで購読を終了する。
+ *          subscribeしたオブジェクトが消えることが保証されていないため、使い終わったら明示的にdisposeを呼んで終了させる。
+ */
 class RxLesson {
     fun execute() {
         println("---- Lesson_ReactiveX ----")
@@ -76,7 +87,7 @@ class RxLesson {
         println("RxBinding o1 ${o1.value}, o2 ${o2.value}")     // RxBinding o1 1, o2 A
 
         // o1をsubscribeしてo2の値を変える
-        o1.subscribe {
+        val disposable: Disposable = o1.subscribe {
             when(it) {
                 2 -> o2.onNext("B")
                 3 -> o2.onNext("C")
@@ -101,6 +112,8 @@ class RxLesson {
 
         o1.onNext(5)
         println("RxBinding o1 ${o1.value}, o2 ${o2.value}")     // RxBinding o1 5, o2 E
+
+        disposable.dispose()
     }
 
     fun lessonRxApiRequest() {
@@ -112,10 +125,6 @@ class RxLesson {
             println("error: ${error.message}")
         }).dispose()
 
-        /**
-         * subscribeした後はdisposeをすることで購読を終了する
-         * Observableオブジェクトが消えることが保証されていないため、使い終わったら明示的にdisposeを呼んで終了させる。
-         */
         Thread.sleep(1000)
     }
 
