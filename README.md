@@ -82,6 +82,5 @@ fun main(args: Array<String>) {
 直接ソースコードを見て写経して学習してください。<br>
 [Lesson](https://github.com/Programmable-school/Kotlin-Training/blob/master/Lesson/src/)<br>
 <br>
-<br>
 非同期処理、ReactiveXのレッスンはこちらで学習してください。<br>
 [Async-Training](https://github.com/Programmable-school/Kotlin-Training/tree/master/Async-Training-1)<br>
