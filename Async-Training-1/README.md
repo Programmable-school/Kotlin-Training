@@ -84,4 +84,4 @@ main.ktがプロジェクトのエントリーポイントです。<br>
 ### フォルダ構成
 フォルダ構成は以下のようになります。<br>
 <br>
-<a href="https://i.imgur.com/VWmJWbb.png"><img src="https://i.imgur.com/VWmJWbb.png" width="300" height="500" /></a>
+<a href="https://i.imgur.com/VWmJWbb.png"><img src="https://i.imgur.com/VWmJWbb.png" width="330" height="500" /></a>
