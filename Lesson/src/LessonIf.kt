@@ -1,6 +1,6 @@
 package lesson
 
-/* if分（条件判断） */
+/* if文（条件分岐） */
 fun lessonIf() {
     var value: Int = 1
 

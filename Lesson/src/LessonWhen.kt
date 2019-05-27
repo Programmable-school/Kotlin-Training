@@ -1,6 +1,6 @@
 package lesson
 
-/* when文（条件判断） */
+/* when文（条件分岐） */
 
 fun lessonWhen() {
     /**
