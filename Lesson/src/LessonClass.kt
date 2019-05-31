@@ -22,15 +22,15 @@ fun lessonClass_Class() {
     val man: Human = Human(SexType.Man, "1990/1/1")
     man.name = "Taro"
     man.setStatus(170, 80)
-    man.showStatus()            // name Taro height 170 weight 80 birthDay 1990/1/1
+    man.showStatus()            // name Taro height 170 weight 80 birthday 1990/1/1
 
     // setはprivateだけ許容しているためビルドエラーになる
-    // man.birthDay = 20
+    // man.birthday = 20
 
     val woman: Human = Human(SexType.Woman, "1992/1/1")
     woman.name = "Hanako"
     woman.setStatus(150, 100)
-    woman.showStatus()          // name Hanako height 150 weight 100 birthDay 1992/1/1
+    woman.showStatus()          // name Hanako height 150 weight 100 birthday 1992/1/1
 
     man.introPartner(woman)     // まぁいつ別れるか分からないけどね。これは独り言だから内緒だよ！
     man.showPartner()           // Taroのパートナーは Hanako
@@ -41,20 +41,28 @@ class Human {
     /**
      * 変数（propety）
      */
-    public lateinit var name: String    // 修飾子:public    外部公開
-    var sexType: SexType                // 修飾子:public    修飾子がない場合はpublicになる
-    var height: Int = 0                 // 修飾子:public    修飾子がない場合はpublicになる
-    private var weight: Int = 0         // 修飾子:private   外部公開しないので自分しか読み書きできない
-    var partner: Human? = null          // optional型で宣言. Optional型の場合はデータにundefinedチェックを行う
-    var birthDay: String = ""           // 読み取り専用（定数） private setを使用する
+    
+    /** 修飾子:public    外部公開, 修飾子がない場合はpublicになる */
+    public lateinit var name: String
+    var sexType: SexType
+
+    /** 修飾子:private   外部公開しないので自分しか読み書きできない */
+    private var height: Int = 0
+    private var weight: Int = 0 
+
+    /** publicのoptional型で宣言. Optional型の場合はデータにnullチェックを行う */
+    var partner: Human? = null
+
+    /** 読み取り専用（定数） private setを使用する */
+    var birthday: String = ""
         private set
 
     /**
      * コンストラクタはクラスのインスタンス（実体）が生成されたタイミングで処理される
      */
-    constructor(sexType: SexType, birthDay: String) {
+    constructor(sexType: SexType, birthday: String) {
         this.sexType = sexType
-        this.birthDay = birthDay
+        this.birthday = birthday
     }
 
     /**
@@ -66,7 +74,7 @@ class Human {
     }
 
     fun showStatus() {
-        println("name: $name, height: $height, weight: $weight, birthDay: $birthDay")
+        println("name: $name, height: $height, weight: $weight, birthday: $birthday")
     }
 
     fun introPartner(human: Human) {
@@ -117,5 +125,3 @@ fun lessonClass_Data() {
 data class HumanData(var name: String, var age: Int) {
     fun getProfile(): String = "name: ${name}, age: ${age}"
 }
-
-/* 値渡し参照渡し */
