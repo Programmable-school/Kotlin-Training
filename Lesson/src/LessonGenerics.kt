@@ -24,11 +24,6 @@ fun lessonGenerics() {
     salalyPay(manager2)                                   // This is Manager. XXX運営会社
     println("スタッフの給料 ${staff2.salary}")              // スタッフの給料 200000
     println("マネージャーの給料 ${manager2.salary}")         // マネージャーの給料 500000
-
-    // マネージャーがスタッフを休憩させる
-    println("スタッフの活動フラグ ${staff2.isActive}")       // スタッフの活動フラグ true
-    manager2.breakStaff(staff2)
-    println("スタッフの活動フラグ ${staff2.isActive}")       // スタッフの活動フラグ false
 }
 
 /**
