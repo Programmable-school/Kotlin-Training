@@ -24,3 +24,6 @@ hs_err_pid*
 
 Async-Training-1/.*
 Async-Training-1/bin
+Async-Training-1/.gradle/*
+Lesson/out/*
+Lesson/.idea/*

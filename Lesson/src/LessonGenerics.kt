@@ -20,8 +20,8 @@ fun lessonGenerics() {
     val manager2 = Manager("社員B", "社員です。", "XXX運営会社")
 
     // 給料を支払う
-    salalyPay(staff2)                                     // This is Staff.
-    salalyPay(manager2)                                   // This is Manager. XXX運営会社
+    salaryPay(staff2)                                     // This is Staff.
+    salaryPay(manager2)                                   // This is Manager. XXX運営会社
     println("スタッフの給料 ${staff2.salary}")              // スタッフの給料 200000
     println("マネージャーの給料 ${manager2.salary}")         // マネージャーの給料 500000
 }
@@ -41,7 +41,7 @@ class Company<T: CompanyHuman>(var companyHuman: T) {
  * ジェネリクス 関数に制約
  * CompanyHumanを継承するクラスを許容する
  */
-fun <T: CompanyHuman> salalyPay(employee: T) {
+fun <T: CompanyHuman> salaryPay(employee: T) {
 
     // employeeがStaffの場合は20万を設定
     if (employee is Staff) {
